@@ -1,0 +1,11 @@
+# environment
+.vscode
+.DS_Store
+
+# python
+*.pyc
+__pycache__
+.pytest_cache
+.coverage
+coverage
+.results
