@@ -4,7 +4,22 @@ Provides a platform for demonstrating basic algorithm design using test-driven d
 
 ##  Usage
 
-Install [Docker Desktop](https://docs.docker.com/install/overview/) and then run:
+Install [Docker Desktop](https://docs.docker.com/install/overview/) and git.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/joshvillbrandt/python-testing.git
+cd python-testing
+```
+
+Build the docker image:
+
+```bash
+make build
+```
+
+And finally run the tests:
 
 ```bash
 make test
