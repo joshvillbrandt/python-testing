@@ -43,4 +43,6 @@ or just like this if already in a shell:
 pytest tests/file.py::function
 ```
 
+Additionally, it is frequently useful to add the `--pdb` argument so that the test runner dumps you into the python debugger if there is an error.
+
 For more information see the [pytest docs](https://docs.pytest.org/en/latest/usage.html).
